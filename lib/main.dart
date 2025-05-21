@@ -48,7 +48,7 @@ class HomePage extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pokémon App con Riverpod'),
+        title: const Text('Pokémon App'),
         actions: [
           if (currentIndex == 0)
             IconButton(
